@@ -3,6 +3,11 @@
     height: 212px;
 }
 
+
+
+.mainContent {
+    width:100%;
+}
 a {
     color: black;
     font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
@@ -194,20 +199,9 @@ a {
     font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
     font-size: 13px;
     font-style: normal;
-    font-variant-ligatures: normal;
-    font-variant-caps: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    orphans: 2;
+
     text-align: start;
-    text-indent: 0px;
-    text-transform: none;
-    white-space: normal;
-    widows: 2;
-    word-spacing: 0px;
-    -webkit-text-stroke-width: 0px;
-    display: inline !important;
-    float: none;
+
 }
 
 .tableTopEndTextStyle {
@@ -309,7 +303,7 @@ a {
 
 .tableSacrificeTitleStartStyle {
     width: 400px;
-    border-bottom: none;
+    border: 0;
 }
 
 .tableSacrificeTitleTitleStyle {

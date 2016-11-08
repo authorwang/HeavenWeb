@@ -9,7 +9,7 @@ public partial class DefaultNew : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        Page.Title = "天堂网--首页";
     }
 
     //link:生态中国

@@ -11,4 +11,35 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
 
     }
+    //link:生态中国
+    protected void LinkButton11_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("http://www.eco.gov.cn/");
+    }
+
+    //link:中国生态网
+    protected void LinkButton12_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("http://www.zgshengtaiw.roboo.com/");
+    }
+
+    //link:环境生态网
+    protected void LinkButton13_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("http://www.eedu.org.cn/Index.shtml");
+    }
+
+
+    //link:中国水土保持生态建设网
+    protected void LinkButton14_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("http://www.swcc.org.cn/");
+    }
+
+
+    //link:四川生态网
+    protected void LinkButton15_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("http://www.stw001.com/");
+    }
 }

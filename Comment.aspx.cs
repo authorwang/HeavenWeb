@@ -9,6 +9,8 @@ public partial class Comment : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        
+        Page.Title = "天堂网--评论详情";
         string commentAuthor = null;
         string comment1 = "地球爷爷发烧了，他痛苦的对月亮婆婆说：不知道地球上的人们怎么了，一天到晚就知道开空调，弄得我浑身发热，跟发烧似的，就快要爆炸了，如果这样，地球上的人们就无法生活了，希望他们要快点改了一天到晚开空调的坏习惯，节约能源，使我能像以前一样快乐的旋转，这样，地球上的人们也能快乐的生活。";
         string comment2 = "我是一棵无名的小草，生长在一所漂亮的学校里，不管风吹雨打，酷暑寒冬，我都挺立在草坪上。那儿有花儿陪我说话，有大树为我遮风挡雨，有许多许多小朋友跟我一起长大，我过得自由自在，无忧无虑，非常快乐。    可是有一天，悲剧开始上演了。记得那一天是玉兰花姐姐的生日，玉兰花姐姐叫我通知兄弟姐妹们参加她的生日聚会。";
@@ -26,7 +28,7 @@ public partial class Comment : System.Web.UI.Page
         }
         else 
         {
-            Response.Redirect("Default.aspx");
+            Response.Redirect("CommentAll.aspx");
         }
 
         lbCommentAuthor.Text = commentAuthor;
@@ -64,6 +66,7 @@ public partial class Comment : System.Web.UI.Page
                 lbCommentText.Text = comment10;
                 break;
             default:
+                Response.Redirect("Default.aspx");
                 break;
         }
     }
